@@ -1,0 +1,11 @@
+#command file structure:
+#command= split | merge
+#base= directory path
+#split= pdf file name 
+#merge= file1, file2, file3, etc....
+#out:=file name out for the merged files
+#indicates comment
+command= merge
+base=C:\Development\PythonFiles\PDFWork-Python\PDFs
+merge=EdwJones0.pdf,EdwJones1.pdf,EdwJones2.pdf,EdwJones3.pdf,EdwJones4.pdf,EdwJones5.pdf,EdwJones6.pdf,EdwJones7.pdf
+out=outMergeEdwJones.pdf
